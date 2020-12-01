@@ -16,7 +16,6 @@ public class Main {
                 break;
             } else if (i == 1 || i == 2) {
                 System.out.println("Det var fel lösenord, försök igen. Detta var försök " + i + " av 3");
-
             } else {
                 System.out.println("Det var fel lösenord och du har förbrukat dina 3 försök, hejdå!");
             }
