@@ -12,7 +12,7 @@ public class Main {
             String passwordAnswer = reader.nextLine();
 
             if (passwordAnswer.equals(password)) {
-                System.out.println("SVAR: Det var rätt lösenord, jag heter Emma");
+                System.out.println("Det var rätt lösenord, jag heter Emma");
                 break;
             } else if (i == 1 || i == 2) {
                 System.out.println("Det var fel lösenord, försök igen. Detta var försök " + i + " av 3");
