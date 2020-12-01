@@ -20,6 +20,7 @@ public class Main {
             } else {
                 System.out.println("Det var fel lösenord och du har förbrukat dina 3 försök, hejdå!");
             }
+            
             System.out.print(System.lineSeparator());
         }
 
